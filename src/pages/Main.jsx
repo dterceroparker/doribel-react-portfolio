@@ -5,7 +5,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 const Main = () => {
   return (
     <div id='main'>
-      <img className='w-full h-screen object-cover object-left'  src="src/assets/images/main.jpg" alt="meditation photo" />
+      <img className='w-full h-screen object-cover object-left'  src="src/assets/images/main.jpg" alt="main page background" />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/40'>
       <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
         <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Welcome! I'm Doribel</h1>
@@ -28,7 +28,7 @@ const Main = () => {
         />
         </h2>
         <div className='flex justify-center pt-6 max-w-[200px] w-full'>
-          <FaLinkedinIn classname='cursor-pointer' size={20}/>
+          <FaLinkedinIn className='cursor-pointer' size={20}/>
         </div>
       </div>
 
