@@ -28,8 +28,8 @@ const Main = () => {
               style={{ fontSize: '1em', paddingLeft: '5px', display: 'inline-block' }}
             />
           </h2>
-          <div className='flex justify-center pt-6 max-w-[200px] w-full'>
-            <FaLinkedinIn className='cursor-pointer' size={20} />
+          <div className='linkedin-icon'>
+            <FaLinkedinIn className='cursor-pointer text-blue border border-blue-800 hover:border-yellow-700 transition duration-300 ease-in-out' size={30} />
           </div>
         </div>
       </div>
