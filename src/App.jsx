@@ -5,6 +5,7 @@
 
 // components
 import Sidenav from './components/Sidenav/Sidenav'
+import Main from './components/Main/Main'
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <>
       <Sidenav />
+      <Main />
     </>
   )
 }
