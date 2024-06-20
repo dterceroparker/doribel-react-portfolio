@@ -28,8 +28,11 @@ const Main = () => {
               style={{ fontSize: '1em', paddingLeft: '5px', display: 'inline-block' }}
             />
           </h2>
-          <div className='linkedin-icon'>
-            <FaLinkedinIn className='cursor-pointer text-blue border border-blue-800 hover:border-yellow-700 transition duration-300 ease-in-out' size={30} />
+          <div 
+            className='linkedin-icon border border-linkedin hover:border-yellow-500 rounded-full p-2 transition duration-300 ease-in-out'
+            onClick={() => window.open('https://www.linkedin.com/in/doribelt-p')}>  
+            <FaLinkedinIn 
+              className='text-linkedin hover:text-linkedin-hover' size={30} />
           </div>
         </div>
       </div>
