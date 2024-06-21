@@ -17,7 +17,7 @@ function Landing() {
             I am
             <TypeAnimation
               sequence={[
-                'a bilingual software engineering learner.',
+                'a bilingual software engineering aspirant.',
                 2000, 
                 'ever-learning.',
                 2000,
