@@ -1,11 +1,12 @@
-![Image 1](src/assets/images/Main.png)
+![Image 1](src/assets/images/welcome.png)
+![Image 2](public/logo.png)
 ![Image 3](src/assets/images/Contact.png)
 
 # `Doribel React Portfolio`
 ***
 
 
-#### [Portfolio Link]()
+#### [Portfolio Link](https://doribel-portfolio.netlify.app/#main)
 ---
 #### `Description`
 #####  
