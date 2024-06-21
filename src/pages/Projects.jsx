@@ -1,17 +1,19 @@
 import ProjectItem from '../components/ProjectItem.jsx'
 import petHealthFetchImg from '../assets/images/petHealthFetch.png'
 import returningHomeImg from '../assets/images/returningHome.png'
+import pawMilyImg from '../assets/images/readmeimage.png'
 
 function Projects() {
   return (
-    <section id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-0'>
-      <h1 className='text-4xl font-bold text-center text-[#001b5e]'>My Projects</h1>
-      <p className='text-center py-4 text-gray-500'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Labore ex libero consectetur at nobis. Architecto, blanditiis quaerat a corrupti totam incidunt, eius illo dolor eum tempore non distinctio esse animi.
+    <section id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-8'>
+      <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>My Projects</h1>
+      <p className='text-center mb-8 py-4 text-gray-500'>
+        My projects cater to diverse needs, from the mental health-focused Returning Home App that supports bootcamp graduates to the convenient Pet HealthFetch app for pet owners. Additionally, PawFamily explores the intersection of social interaction and a calming environment. These projects showcase my interest in the potential for technology to enhance different aspects of life. While they serve distinct purposes, there might be intriguing possibilities for combining features in the future, like incorporating pet-related content within the Returning Home App.
       </p>
-      <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={petHealthFetchImg} title='Pet HealthFetch App' />
-        <ProjectItem img={returningHomeImg} title='Returning Home App' />
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
+        <ProjectItem img={petHealthFetchImg} title='Pet HealthFetch App'/>
+        <ProjectItem img={returningHomeImg} title='Returning Home' />
+        <ProjectItem img={pawMilyImg} title='PawMily' />
       </div>
     </section>
   )

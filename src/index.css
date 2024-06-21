@@ -11,7 +11,7 @@ body {
 }
 
 .dark-mode {
-  @apply bg-gray-800 text-blue-400; /* Dark mode styles */
+  @apply bg-gray-800 text-black; /* Dark mode styles */
 }
 
 .light-mode {

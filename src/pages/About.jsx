@@ -1,7 +1,8 @@
 import AboutItem from '../components/AboutItem'
 
 const data = [
-  {year: 2024,
+  {
+    year: 2024,
     title: '',
     details: 'I am particularly interested in the intersection of technology accessibility and inclusive growth, where innovative solutions empower all users and bridge the digital divide. My background in academic support and non-profit work have equipped me with strong communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
 
