@@ -5,3 +5,15 @@
 * {
   scroll-behavior: smooth;
 }
+
+body {
+  @apply h-screen transition;
+}
+
+.dark-mode {
+  @apply bg-gray-800 text-blue-400; /* Dark mode styles */
+}
+
+.light-mode {
+  @apply bg-blue-800 text-yellow-600; /* Light mode styles */
+}

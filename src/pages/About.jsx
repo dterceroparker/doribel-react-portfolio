@@ -1,4 +1,3 @@
-import React from 'react'
 import AboutItem from '../components/AboutItem'
 
 const data = [
@@ -14,7 +13,7 @@ const data = [
   },
 ]
 
-const About = () => {
+function About() {
   return (
     <div id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">

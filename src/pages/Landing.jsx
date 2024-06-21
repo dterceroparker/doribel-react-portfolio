@@ -1,8 +1,7 @@
-import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedinIn } from 'react-icons/fa'
 
-const Main = () => {
+function Landing() {
   return (
     <div id='main'>
       <img className='w-full h-screen object-cover object-left' src="src/assets/images/main.jpg" alt="main page background" />
@@ -32,7 +31,8 @@ const Main = () => {
             className='linkedin-icon border border-linkedin hover:border-yellow-500 rounded-full p-2 transition duration-300 ease-in-out'
             onClick={() => window.open('https://www.linkedin.com/in/doribelt-p')}>  
             <FaLinkedinIn 
-              className='text-linkedin hover:text-linkedin-hover' size={30} />
+              className='text-linkedin hover:text-linkedin-hover' size={30} 
+            />
           </div>
         </div>
       </div>
@@ -40,4 +40,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Landing
