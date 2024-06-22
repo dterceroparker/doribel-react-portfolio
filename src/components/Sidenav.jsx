@@ -23,11 +23,10 @@ function Sidenav() {
   }
 
   const toggleDarkMode = () => {
+    // Persist mode in localStorage
     setIsDarkMode(!isDarkMode)
-   // Persist mode in localStorage
+    // Log the updated state value
     localStorage.setItem('darkMode', isDarkMode ? 'true' : 'false');
-   // Log the updated state value
-    console.log(`isDarkMode updated: ${isDarkMode}`);
   }
 
   useEffect(() => {
@@ -39,7 +38,7 @@ function Sidenav() {
     <div className={`${isDarkMode ? 'dark-mode' : 'light-mode'} overflow-hidden`}>
       <AiOutlineMenu size={25} 
         onClick={handleNav}
-        className='absolute top-4 right-4 z-[99] md:hidden  border hover:border-yellow-500 cursor-pointer'
+        className="fixed top-4 right-4 z-50 md:hidden cursor-pointer hover:bg-yellow-100 hover:border-yellow-500"
       />
       {nav && (
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
