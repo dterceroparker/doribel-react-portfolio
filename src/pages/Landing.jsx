@@ -3,7 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 function Landing() {
   return (
-    <div id='landing'>
+    <div id='main'>
       <img className='w-full h-screen object-cover object-left' 
       src="/landing.jpg" 
       alt="landing page background" />

@@ -44,7 +44,7 @@ function Sidenav() {
         <div className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
           <a
             onClick={handleNav}
-            href="#landing"
+            href="#main"
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineHome size={20} />
@@ -68,7 +68,7 @@ function Sidenav() {
           </a>
           <a
             onClick={handleNav}
-            href="#landing"
+            href="#main"
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <GrResume size={20} />
@@ -94,7 +94,7 @@ function Sidenav() {
       <div className='md:block hidden fixed top-[25%] z-10'>
         <div className='flex flex-col'>
           <a
-            href="#landing"
+            href="#main"
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:bg-gray-200 hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineHome size={20} />
@@ -112,7 +112,7 @@ function Sidenav() {
             <AiOutlineProject size={20} />
           </a>
           <a
-            href="#landing"
+            href="#main"
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:bg-gray-200 hover:scale-110 transition duration-300 ease-in-out'
           >
             <GrResume size={20} />
