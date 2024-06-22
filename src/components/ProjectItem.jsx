@@ -19,7 +19,7 @@ function ProjectItem({ img, title }) {
           className="p-2 rounded-lg bg-gray-200 text-gray-700 font-bold cursor-pointer hover:bg-blue-200 transition duration-300 ease-in-out"
           onClick={() => window.open("https://github.com/dterceroparker")}
         >
-          <FaGithubSquare className='mx-auto w-5 h-5 text-white-700'/>
+          <FaGithubSquare className='mx-auto w-5 h-5'/>
         </button>
         </div>
       </div>

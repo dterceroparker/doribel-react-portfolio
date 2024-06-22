@@ -12,4 +12,4 @@ const AboutItem = ({ year, title, details }) => (
   </ol>
 );
 
-export default AboutItem;
+export default AboutItem
