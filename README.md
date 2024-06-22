@@ -2,7 +2,7 @@
 ![Image 2](public/logo.png)
 ![Image 3](src/assets/images/Contact.png)
 
-## [Portfolio Link](https://doribel-portfolio.netlify.app/#main)
+## [Portfolio Link](https://doribel-portfolio.netlify.app/)
 ***
 
 #### `Description`
