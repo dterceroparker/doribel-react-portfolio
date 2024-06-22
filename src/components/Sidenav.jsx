@@ -82,14 +82,13 @@ function Sidenav() {
             <AiOutlineMail size={20} />
             <span className='pl-14'>Contact</span>
           </a>
-          <a
+          <button
             onClick={toggleDarkMode}
-            href="#main"
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             {isDarkMode ? <MdLightMode size={20} /> : <MdDarkMode size={20} />}
             <span className='pl-14'>Toggle</span>
-          </a>
+          </button>
         </div>
       )}
       <div className='md:block hidden fixed top-[25%] z-10'>
@@ -124,6 +123,12 @@ function Sidenav() {
           >
             <AiOutlineMail size={20} />
           </a>
+          <button
+            onClick={toggleDarkMode}
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:bg-gray-200 hover:scale-110 transition duration-300 ease-in-out'
+          >
+            {isDarkMode ? <MdLightMode size={20} /> : <MdDarkMode size={20} />}
+          </button>
         </div>
     </div>
   </div>
