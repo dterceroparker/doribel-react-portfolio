@@ -7,7 +7,7 @@ import {
   AiOutlineProject, 
   AiOutlineMail
 } from 'react-icons/ai'
-import { BsPerson } from'react-icons/bs'
+import { GrResume } from 'react-icons/gr'
 import { MdLightMode, MdDarkMode } from 'react-icons/md'
 
 function Sidenav() {
@@ -68,10 +68,10 @@ function Sidenav() {
           </a>
           <a
             onClick={handleNav}
-            href="#linkedIn-resume"
+            href="#landing"
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <BsPerson size={20} />
+            <GrResume size={20} />
             <span className='pl-14'>Resume</span>
           </a>
           <a
@@ -94,7 +94,7 @@ function Sidenav() {
       <div className='md:block hidden fixed top-[25%] z-10'>
         <div className='flex flex-col'>
           <a
-            href="#main"
+            href="#landing"
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:bg-gray-200 hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineHome size={20} />
@@ -112,10 +112,10 @@ function Sidenav() {
             <AiOutlineProject size={20} />
           </a>
           <a
-            href="#main"
+            href="#landing"
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:bg-gray-200 hover:scale-110 transition duration-300 ease-in-out'
           >
-            <BsPerson size={20} />
+            <GrResume size={20} />
           </a>
           <a
             href="#contact"
