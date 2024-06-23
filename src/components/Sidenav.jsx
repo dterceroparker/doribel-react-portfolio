@@ -95,38 +95,38 @@ const Sidenav = () => {
         <div className={`${isDarkMode ? 'dark' : 'light'} flex flex-col`}>
           <a
             href="#main"
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a]  hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineHome size={20} />
           </a>
           <a
             href="#about"
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a] hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineInfoCircle size={20} />
           </a>
           <a
             href="#projects"
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a] hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineProject size={20} />
           </a>
           <a
             href="#main"
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a]  hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             <GrResume size={20} />
           </a>
           <a
             href="#contact"
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a] hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             <AiOutlineMail size={20} />
           </a>
           <a
             href="#main"
             onClick={toggleDarkMode}
-            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:from-[#243c5a] hover:scale-110 transition duration-300 ease-in-out'
+            className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out'
           >
             {isDarkMode ? <MdLightMode size={20} /> : <MdDarkMode size={20} />}
           </a>

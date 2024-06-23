@@ -32,11 +32,11 @@ const Landing = () => {
             />
           </h2>
           <div 
-            className='linkedin-icon cursor-pointer bg-white border border-linkedin hover:border-yellow-500 rounded-full p-1 transition duration-300 ease-in-out flex justify-center items-center '
+            className='linkedin-icon cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-500 text-white opacity-95 border border-linkedin hover:border-yellow-500 rounded-full p-1 transition duration-300 ease-in-out flex justify-center items-center '
             onClick={() => window.open('https://www.linkedin.com/in/doribelt-p')}>  
             <FaLinkedinIn 
-              className='text-linkedin hover:text-linkedin-hover text-blue-500' 
-              size={30} 
+              className='text-linkedin hover:text-linkedin-hover text-white' 
+              size={25} 
             />
           </div>
         </div>
