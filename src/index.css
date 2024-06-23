@@ -14,11 +14,17 @@ body {
 
 /* Dark Mode Styles (using Tailwind classes) */
 .dark > a {
-  @apply bg-black text-blue-600 opacity-95; 
+  @apply bg-gray-700 text-blue-400; 
+  &:hover {
+    @apply outline-none ring-2 ring-offset-2 ring-blue-300; 
+  }
 }
 
 /* Light Mode Styles (using Tailwind classes) */
 .light > a {
   @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white opacity-95;
+  &:hover {
+    @apply outline-none ring-2 ring-offset-2 ring-blue-300; 
+  }
 }
 
