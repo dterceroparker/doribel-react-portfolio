@@ -16,13 +16,24 @@ body {
 .dark > a {
   @apply bg-gray-700 text-blue-400; 
   &:hover {
-    @apply outline-none ring-2 ring-offset-2 ring-blue-300; 
+    @apply outline-none ring-2 ring-offset-2 ring-blue-900; 
   }
 }
 
 /* Light Mode Styles (using Tailwind classes) */
 .light > a {
   @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white opacity-95;
+  &:hover {
+    @apply outline-none ring-2 ring-offset-2 ring-blue-300; 
+  }
+}
+
+.menu-icon {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white opacity-95;
+  width: 1.5rem; 
+  height: 1.5rem; 
+  border-radius: 0.5rem; 
+  transition: all 0.2s ease-in-out; 
   &:hover {
     @apply outline-none ring-2 ring-offset-2 ring-blue-300; 
   }

@@ -37,7 +37,7 @@ const Sidenav = () => {
     <div className= 'overflow-hidden'>
       <AiOutlineMenu size={25} 
         onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer"
+        className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer menu-icon"
       />
       {nav && (
         <div className={`${isDarkMode ? 'dark' : 'light'} fixed w-full h-screen flex flex-col justify-center items-center z-20`}>
