@@ -5,7 +5,7 @@ import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
 // import Resume from './pages/Resume.jsx'
 
-function App() {
+const App = () => {
   return (
     <>
       <Sidenav />

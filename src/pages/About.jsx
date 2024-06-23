@@ -2,7 +2,7 @@
 import AboutItem from '../components/AboutItem'
 import { jobs } from '../data/jobs-data'
 
-function About() {
+const About = () => {
   return (
     <section id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">

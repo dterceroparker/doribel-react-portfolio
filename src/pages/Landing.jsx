@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedinIn } from 'react-icons/fa'
 
-function Landing() {
+const Landing = () => {
   return (
     <div id='main'>
       <img className='w-full h-screen object-cover object-left' 
@@ -10,11 +10,11 @@ function Landing() {
       <div className='w-full h-screen absolute top-0 left-0 bg-white/40'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 
-            className='flex text-center sm:text-5xl text-4xl font-bold text-gray-800'>Welcome! I'm Doribel!
+            className='flex text-center sm:text-5xl text-4xl font-bold text-gray-800'>{`Welcome! I'm Doribel!`}
           </h1>
           <h2 
             className='flex text-center sm:text-3xl text-2xl pt-4 py-4 text-gray-800'>
-            I'm
+            {`I'm`}
             <TypeAnimation
               sequence={[
                 'a bilingual software engineering aspirant.',

@@ -3,7 +3,7 @@ import petHealthFetchImg from '../assets/images/petHealthFetch.png'
 import returningHomeImg from '../assets/images/returningHome.png'
 import pawMilyImg from '../assets/images/readmeimage.png'
 
-function Projects() {
+const Projects = () => {
   const projectsData = [
     { img: petHealthFetchImg, title: 'Pet HealthFetch App' },
     { img: returningHomeImg, title: 'Returning Home' },
