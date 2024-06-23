@@ -2,18 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   scroll-behavior: smooth;
 }
 
+
 body {
-  @apply h-screen transition;
+  @apply h-screen transition duration-300 ease-in-out;
 }
 
-.dark-mode {
-  @apply bg-gray-800 text-black; 
+/* Dark Mode Styles (using Tailwind classes) */
+.dark > a {
+  @apply bg-black text-blue-600 opacity-95; 
 }
 
-.light-mode {
-  @apply bg-blue-800 text-yellow-900; 
+/* Light Mode Styles (using Tailwind classes) */
+.light > a {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white opacity-95;
 }
+

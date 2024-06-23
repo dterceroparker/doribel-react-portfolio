@@ -7,7 +7,7 @@ const Landing = () => {
       <img className='w-full h-screen object-cover object-left' 
       src="/landing.jpg" 
       alt="landing page background" />
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/40'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-white/30'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 
             className='flex text-center sm:text-5xl text-4xl font-bold text-gray-800'>{`Welcome! I'm Doribel!`}
