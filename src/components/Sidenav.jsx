@@ -18,7 +18,7 @@ const Sidenav = () => {
   const handleNav = () => {
     setNav(!nav)
     if (nav && mainRef.current) {
-      mainRef.current.scrollIntoView({ behavior: "smooth" });
+      mainRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }
 
