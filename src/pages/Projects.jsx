@@ -1,12 +1,14 @@
 import ProjectItem from '../components/ProjectItem'
 import petHealthFetchImg from '../assets/images/petHealthFetch.png'
-import returningHomeImg from '../assets/images/returningHome.png'
-import pawMilyImg from '../assets/images/readmeimage.png'
+import returningHomeImg from '../assets/images/returningHomeLogo.png'
+import returningHomeQuoteImg from '../assets/images/returningHomeQuote.png'
+import pawMilyImg from '../assets/images/pawMily.png'
 
 const Projects = () => {
   const projectsData = [
     { img: petHealthFetchImg, title: 'Pet HealthFetch App' },
-    { img: returningHomeImg, title: 'Returning Home' },
+    { img: returningHomeImg, title: 'Returning Home Logo' },
+    { img: returningHomeQuoteImg, title: 'Returning Home' },
     { img: pawMilyImg, title: 'PawMily' }
   ]
 
