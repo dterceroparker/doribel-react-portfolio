@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   scroll-behavior: smooth;
 }
-
 
 body {
   @apply h-screen transition duration-300 ease-in-out;
