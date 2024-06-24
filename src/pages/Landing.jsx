@@ -1,3 +1,4 @@
+
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedinIn } from 'react-icons/fa'
 
