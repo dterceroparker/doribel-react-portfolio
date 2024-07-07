@@ -14,10 +14,10 @@ const Landing = () => {
       />
       <div className="absolute top-0 left-0 w-full h-screen bg-white/10 flex items-center justify-center">
         <div className="max-w-[700px] mx-auto text-center p-4 lg:p-8 bg-white/60 rounded-lg shadow-lg backdrop-filter backdrop-blur-md">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-1">
             {`Welcome! I'm Doribel!`}
           </h1>
-          <h2 className="text-2xl sm:text-3xl py-4 text-gray-800">
+          <h2 className="text-2xl sm:text-2xl py-4 text-gray-800">
             {`I'm`}
             <TypeAnimation
               sequence={[
@@ -35,7 +35,7 @@ const Landing = () => {
               style={{ fontSize: '1em', paddingLeft: '5px', display: 'inline-block' }}
             />
           </h2>
-          <div className="mt-4 flex space-x-4 justify-center">
+          <div className="mt-2 flex space-x-4 justify-center">
             <a
               href={linkedinLink}
               target="_blank"
