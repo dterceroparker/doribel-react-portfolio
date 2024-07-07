@@ -2,7 +2,7 @@ export const jobs = [
   {
     year: 2024,
     title: '',
-    details: 'Nicaragüense who migrated to the US at the age of twelve, with a lifelong passion for immigrant and animal rights and mental wellbeing. My interest lies at the intersection of technology accessibility and inclusive growth, aiming to develop innovative solutions that empower all users and bridge the digital divide. My background in academic support and non-profit work has strengthened my communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
+    details: 'Nicaragüense who migrated to the US at the age of twelve, with a lifelong passion for immigrant and animal rights and mental well-being. My interest lies at the intersection of technology accessibility and inclusive growth, exploring innovative solutions that empower users and bridge the digital divide. My background in academic support and non-profit work has strengthened my communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
   },
   {
     year: 2024,
