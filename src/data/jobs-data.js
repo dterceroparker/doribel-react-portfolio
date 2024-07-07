@@ -2,16 +2,16 @@ export const jobs = [
   {
     year: 2024,
     title: '',
-    details: 'I am interested in the intersection of technology accessibility and inclusive growth, where innovative solutions empower all users and bridge the digital divide. My background in academic support and non-profit work have equipped me with strong communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
+    details: 'Nicaragüense who migrated to the US at the age of twelve, with a lifelong passion for immigrant and animal rights and mental wellbeing. My interest lies at the intersection of technology accessibility and inclusive growth, aiming to develop innovative solutions that empower all users and bridge the digital divide. My background in academic support and non-profit work has strengthened my communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
   },
   {
     year: 2024,
     title: 'General Assembly Software Engineering Bootcamp',
-    details: 'Built a foundation in programming and web development (React, Node.js, Mongoose, Express). I also honed my collaborative skills through hands-on projects and Git/GitHub version control.',
+    details: 'Built a foundation in programming and web development (React, Node.js, Mongoose, Express). Enhanced collaborative skills through hands-on projects and effective use of Git/GitHub for version control.',
   },
   {
     year: 2023, 
     title: 'CUNY Data Analytics Foundations Course',
-    details: 'Acquired the basic skills that a data analytics professional needs to gather, prepare, analyze and display data from structured and unstructured sources. Became familiar with Python, SQL and Tableau, and learned about the industries and professions that use data analytics.',
+    details: 'Developed essential skills for data analytics, including data gathering, preparation, analysis, and visualization from both structured and unstructured sources. Gained proficiency in Python, SQL, and Tableau. Explored various industries and professions that leverage data analytics to drive insights and decision-making.',
   },
 ]
