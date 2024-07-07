@@ -1,6 +1,5 @@
 ![Image 1](src/assets/images/welcome.png)
 ![Image 2](public/logo.png)
-![Image 3](src/assets/images/contact.png)
 
 ## [Portfolio Link](https://doribel-portfolio.netlify.app/)
 ***
