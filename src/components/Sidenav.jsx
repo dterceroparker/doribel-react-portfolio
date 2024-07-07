@@ -73,7 +73,7 @@ const Sidenav = () => {
             { href: '#main', icon: <AiOutlineHome size={20} /> },
             { href: '#about', icon: <AiOutlineInfoCircle size={20} /> },
             { href: '#projects', icon: <AiOutlineProject size={20} /> },
-            { href: '#resume', icon: <GrResume size={20} /> },
+            { href: '#main', icon: <GrResume size={20} /> },
             { href: '#contact', icon: <AiOutlineMail size={20} /> }
           ].map((item, index) => (
             <a
