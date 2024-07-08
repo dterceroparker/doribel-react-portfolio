@@ -1,7 +1,8 @@
-import ProjectItem from '../components/ProjectItem';
-import petHealthFetchImg from '../assets/images/petHealthFetch.png';
-import returningHomeImg from '../assets/images/returningHome.png';
-import pawMilyImg from '../assets/images/pawMily.png';
+import ProjectItem from '../components/ProjectItem'
+import petHealthFetchImg from '../assets/images/petHealthFetch.png'
+import returningHomeImg from '../assets/images/returningHome.png'
+import pawMilyImg from '../assets/images/pawMily.png'
+import tttImg from '../assets/images/ttt.png'
 
 const Projects = () => {
   
@@ -9,7 +10,8 @@ const Projects = () => {
   const projectsData = [
     { img: petHealthFetchImg, title: 'Pet HealthFetch React App', projectLink: 'https://pet-health-fetch.netlify.app/', githubLink: 'https://github.com/dterceroparker/pet-healthfetch-front-end'},
     { img: returningHomeImg, title: 'Returning Home', projectLink: 'https://returning-home-app.netlify.app/', githubLink: 'https://github.com/dterceroparker/returning-home-app' },
-    { img: pawMilyImg, title: 'PawMily Album', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' }
+    { img: pawMilyImg, title: 'PawMily Album', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' },
+    { img: tttImg, title: 'Tic-Tac-Toe-Calm', projectLink: 'https://tic-tac-toe-calm.netlify.app/', githubLink: 'https://github.com/dterceroparker/' },
   ]
 
   return (

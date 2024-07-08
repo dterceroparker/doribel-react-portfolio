@@ -5,7 +5,7 @@
 ***
 
 #### `Description`
-##### My projects cater to diverse needs, from the mental health-focused Returning Home App that supports bootcamp graduates to the convenient Pet HealthFetch app for pet owners. Additionally, PawFamily explores the intersection of social interaction and a calming environment. These projects showcase my interest in the potential for technology to enhance different aspects of life. While they serve distinct purposes, there might be intriguing possibilities for combining features in the future, like incorporating pet-related content within the Returning Home App.  
+##### My projects cater to diverse needs, from the mental health-focused Returning Home app that supports bootcamp graduates to the convenient Pet HealthFetch app for pet owners. Additionally, PawMily Album explores the intersection of social interaction and a calming environment. These projects showcase my interest in the potential for technology to enhance different aspects of life. While they serve distinct purposes, there might be intriguing possibilities for combining features in the future, like incorporating pet-related content within the Returning Home app.  
 ---
 #### `Technology`
 
