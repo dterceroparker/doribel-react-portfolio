@@ -67,7 +67,7 @@ const Sidenav = () => {
           </a>
         </div>
       )}
-      <div className="md:block hidden fixed top-[25%] z-10">
+      <div className="hidden md:block fixed top-[25%] z-10">
         <div className="flex flex-col">
           {[
             { href: '#main', icon: <AiOutlineHome size={20} /> },
