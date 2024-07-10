@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <section id="projects" className="max-w-screen-lg mx-auto md:pl-20 p-4 pb-8">
       <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8 mt-0">
-        My Projects
+        Projects
       </h1>
       <div className="bg-white p-6 rounded-lg shadow-lg mb-8 hover-effect">
         <p className="my-2 text-base font-normal text-stone-500">
