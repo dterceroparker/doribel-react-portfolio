@@ -2,7 +2,7 @@ import ProjectItem from '../components/ProjectItem'
 import petHealthFetchImg from '../assets/images/petHealthFetch.png'
 import returningHomeImg from '../assets/images/returningHome.png'
 import pawMilyImg from '../assets/images/pawMily.png'
-import tttImg from '../assets/images/ttt.jpg'
+import tttImg from '../assets/images/ttt.png'
 
 const Projects = () => {
   
