@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { FaGithubSquare } from "react-icons/fa"
 import { IoMdOpen } from "react-icons/io"
 
@@ -42,6 +43,13 @@ const ProjectItem = ({ img, title, githubLink, projectLink }) => {
       </div>
     </section>
   )
+}
+
+ProjectItem.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  githubLink: PropTypes.string,
+  projectLink: PropTypes.string,
 }
 
 export default ProjectItem

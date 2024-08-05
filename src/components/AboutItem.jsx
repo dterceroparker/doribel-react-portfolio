@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 const AboutItem = ({ year, title, details }) => {
   return (
@@ -12,6 +13,12 @@ const AboutItem = ({ year, title, details }) => {
       </li>
     </ol>
   )
+}
+
+AboutItem.propTypes = {
+  year: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  details: PropTypes.string.isRequired,
 }
 
 export default AboutItem
