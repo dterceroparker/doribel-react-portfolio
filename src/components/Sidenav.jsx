@@ -20,6 +20,7 @@ const Sidenav = () => {
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode)
     localStorage.setItem('darkMode', isDarkMode ? 'false' : 'true')
+    setNav(false)
   }
 
   useEffect(() => {
@@ -34,11 +35,13 @@ const Sidenav = () => {
 
   return (
     <div className="overflow-hidden">
-      <AiOutlineMenu
-        size={25}
-        onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer menu-icon"
-      />
+      {!nav && (
+        <AiOutlineMenu
+          size={25}
+          onClick={handleNav}
+          className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer menu-icon"
+        />
+      )}
       {nav && (
         <div className="fixed w-full h-screen flex flex-col justify-center items-center z-20">
           {[
@@ -80,6 +83,7 @@ const Sidenav = () => {
               key={index}
               href={item.href}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
+              onClick={handleNav}
             >
               {item.icon}
             </a>
