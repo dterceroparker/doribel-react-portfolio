@@ -8,10 +8,10 @@ const Projects = () => {
   
 
   const projectsData = [
-    { img: petHealthFetchImg, title: 'Pet HealthFetch React App', tech: 'JavaScript | MERN | Team Workflow', projectLink: 'https://pet-health-fetch.netlify.app/', githubLink: 'https://github.com/dterceroparker/pet-healthfetch-front-end'},
-    { img: returningHomeImg, title: 'Returning Home', tech: 'CSS3 | HTML5 | JavaScript', projectLink: 'https://returning-home-app.netlify.app/', githubLink: 'https://github.com/dterceroparker/returning-home-app' },
-    { img: pawMilyImg, title: 'PawMily Album', tech: 'JavaScript | MEN', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' },
-    { img: tttImg, title: 'Tic-Tac-Toe Calm', tech: 'CSS3 | HTML5 | JavaScript', projectLink: 'https://tic-tac-toe-calm.netlify.app/', githubLink: 'https://github.com/dterceroparker/' },
+    { img: petHealthFetchImg, title: 'Pet HealthFetch React App', tech: 'JavaScript • MERN • Agile Team Workflow', projectLink: 'https://pet-health-fetch.netlify.app/', githubLink: 'https://github.com/dterceroparker/pet-healthfetch-front-end'},
+    { img: returningHomeImg, title: 'Returning Home', tech: 'CSS3 • HTML5 • JavaScript', projectLink: 'https://returning-home-app.netlify.app/', githubLink: 'https://github.com/dterceroparker/returning-home-app' },
+    { img: pawMilyImg, title: 'PawMily Album', tech: 'JavaScript • MEN', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' },
+    { img: tttImg, title: 'Tic-Tac-Toe Calm', tech: 'CSS3 • HTML5 • JavaScript', projectLink: 'https://tic-tac-toe-calm.netlify.app/', githubLink: 'https://github.com/dterceroparker/' },
   ]
 
   return (
