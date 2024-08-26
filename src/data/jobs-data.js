@@ -1,6 +1,6 @@
 export const jobs = [
   {
-    image: 'public/profile.jpg',
+    image: '/profile.jpg',
     title: '',
     company: '',
     details: 'Nicaragüense who immigrated to the U.S. at the age of twelve, with a lifelong passion for immigrant and animal rights and mental well-being. My interest lies at the intersection of technology accessibility and inclusive growth, exploring innovative solutions that empower users and bridge the digital divide. My background in academic support and non-profit work has strengthened my communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',

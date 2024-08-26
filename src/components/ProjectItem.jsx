@@ -49,7 +49,7 @@ const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
 ProjectItem.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  tech: PropTypes.string, // Add this line
+  tech: PropTypes.string,
   githubLink: PropTypes.string,
   projectLink: PropTypes.string,
 }
