@@ -16,7 +16,7 @@ const About = () => {
           <img 
             src="/about.jpg" 
             alt="Profile" 
-            className="w-full h-full rounded-full object-cover shadow-lg transition-transform duration-300 transform hover:scale-110"
+            className="w-full h-full rounded-full object-cover shadow-lg transition-transform duration-300 transform hover:scale-110 object-top"
           />
           <div className="absolute inset-0 rounded-full bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-70 transition-opacity duration-300 flex justify-center items-center">
             <span className="text-white text-lg font-semibold">Doribel</span>
