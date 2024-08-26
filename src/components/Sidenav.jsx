@@ -83,7 +83,6 @@ const Sidenav = () => {
               key={index}
               href={item.href}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
-              onClick={handleNav}
             >
               {item.icon}
             </a>

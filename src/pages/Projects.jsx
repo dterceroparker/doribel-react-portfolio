@@ -8,10 +8,10 @@ const Projects = () => {
   
 
   const projectsData = [
-    { img: petHealthFetchImg, title: 'Pet HealthFetch React App', projectLink: 'https://pet-health-fetch.netlify.app/', githubLink: 'https://github.com/dterceroparker/pet-healthfetch-front-end'},
-    { img: returningHomeImg, title: 'Returning Home', projectLink: 'https://returning-home-app.netlify.app/', githubLink: 'https://github.com/dterceroparker/returning-home-app' },
-    { img: pawMilyImg, title: 'PawMily Album', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' },
-    { img: tttImg, title: 'Tic-Tac-Toe Calm', projectLink: 'https://tic-tac-toe-calm.netlify.app/', githubLink: 'https://github.com/dterceroparker/' },
+    { img: petHealthFetchImg, title: 'Pet HealthFetch React App', tech: 'JavaScript | MERN | Team Workflow', projectLink: 'https://pet-health-fetch.netlify.app/', githubLink: 'https://github.com/dterceroparker/pet-healthfetch-front-end'},
+    { img: returningHomeImg, title: 'Returning Home', tech: 'CSS3 | HTML5 | JavaScript', projectLink: 'https://returning-home-app.netlify.app/', githubLink: 'https://github.com/dterceroparker/returning-home-app' },
+    { img: pawMilyImg, title: 'PawMily Album', tech: 'JavaScript | MEN', projectLink: 'https://pawmily-album.fly.dev/', githubLink: 'https://github.com/dterceroparker/pawmily-album' },
+    { img: tttImg, title: 'Tic-Tac-Toe Calm', tech: 'CSS3 | HTML5 | JavaScript', projectLink: 'https://tic-tac-toe-calm.netlify.app/', githubLink: 'https://github.com/dterceroparker/' },
   ]
 
   return (
@@ -21,7 +21,7 @@ const Projects = () => {
       </h1>
       <div className="bg-white p-6 rounded-lg shadow-lg mb-8 hover-effect">
         <p className="my-2 text-base font-normal text-stone-500">
-          My projects cater to diverse needs, from the mental health-focused Returning Home app that supports bootcamp participants to the convenient Pet HealthFetch app for pet owners. Additionally, PawMily Album explores the intersection of social interaction and a calming environment. These projects showcase my interest in the potential for technology to enhance different aspects of life. While they serve distinct purposes, there are possibilities for combining features in the future, such as incorporating pet-related content within the Returning Home app.
+          My projects cater to diverse needs, from the mental health-focused Returning Home app that supports bootcamp participants to the convenient Pet HealthFetch app for pet owners. Additionally, PawMily Album explores the intersection of social interaction and a calming environment. These projects showcase my interest in the potential for technology to enhance different aspects of life.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">

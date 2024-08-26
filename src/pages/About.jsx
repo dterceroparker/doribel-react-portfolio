@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="relative w-56 h-56 overflow-hidden">
           <img 
-            src="/profile.jpg" 
+            src="/about.jpg" 
             alt="Profile" 
             className="w-full h-full rounded-full object-cover shadow-lg transition-transform duration-300 transform hover:scale-110"
           />
