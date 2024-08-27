@@ -3,7 +3,7 @@ import Landing from './pages/Landing.jsx'
 import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
-// import Resume from './pages/Resume.jsx'
+import Footer from './components/Footer.jsx'
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
-      {/* <Resume /> */}
+      <Footer />
     </>
   )
 }
