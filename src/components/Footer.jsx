@@ -2,9 +2,12 @@ import { motion } from 'framer-motion';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
+  // Motion preferences based on user settings for reduced motion
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   return (
     <motion.footer
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: prefersReducedMotion ? 1 : 0, y: prefersReducedMotion ? 0 : 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
       className="w-full p-4 text-center bg-gray-900 text-white"
@@ -15,19 +18,24 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-indigo-400 transition-colors duration-300"
+          aria-label="LinkedIn Profile"
         >
-          <FaLinkedin className="w-8 h-8" />
+          <FaLinkedin className="w-8 h-8" aria-hidden="true" />
         </a>
         <a
           href="https://github.com/dterceroparker"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-400 transition-colors duration-300"
+          aria-label="GitHub Profile"
         >
-          <FaGithubSquare className="w-8 h-8" />
+          <FaGithubSquare className="w-8 h-8" aria-hidden="true" />
         </a>
       </div>
-      <p className="mt-4 text-sm">&copy; 2024 Doribel Tercero - Parker. All rights reserved.</p>
+      <p className="mt-4 text-sm font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500">
+  &quot;Try to be a rainbow in someone’s cloud.&quot; — Maya Angelou
+</p>
+
     </motion.footer>
   );
 }
