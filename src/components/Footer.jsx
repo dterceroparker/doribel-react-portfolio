@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
       </div>
       <p className="mt-4 text-sm font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500">
-  &quot;Try to be a rainbow in someone’s cloud.&quot; — Maya Angelou
+  &quot;Try to be a rainbow in someone’s cloud.&quot; <br></br>Maya Angelou
 </p>
 
     </motion.footer>
