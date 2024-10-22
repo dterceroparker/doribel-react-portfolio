@@ -30,10 +30,10 @@ const Sidenav = () => {
               <button
                 aria-label="Open menu"
                 onClick={handleNav}
-                className="cursor-pointer menu-icon mr-4"
+                className="cursor-pointer menu-icon mr-4 flex items-center justify-center bg-gray-100 bg-opacity-70 rounded-full p-2 shadow-md dark:bg-black dark:bg-opacity-50"
               >
                 <AiOutlineMenu
-                  size={25}
+                  size={20}
                   className="text-gray-900 dark:text-gray-200"
                 />
               </button>
@@ -86,7 +86,7 @@ const Sidenav = () => {
                 label: "Projects",
               },
               {
-                href: "#resume",
+                href: "#main",
                 icon: <GrResume size={20} />,
                 label: "Resume",
               },
@@ -115,7 +115,7 @@ const Sidenav = () => {
               { href: "#main", icon: <AiOutlineHome size={20} /> },
               { href: "#about", icon: <AiOutlineInfoCircle size={20} /> },
               { href: "#projects", icon: <AiOutlineProject size={20} /> },
-              { href: "#resume", icon: <GrResume size={20} /> },
+              { href: "#main", icon: <GrResume size={20} /> },
               { href: "#contact", icon: <AiOutlineMail size={20} /> },
             ].map((item, index) => (
               <a
