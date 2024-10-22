@@ -9,7 +9,7 @@ export const jobs = [
     year: 2024,
     title: 'Software Developer',
     company: 'The Collab Lab (Remote)',
-    details: 'Actively contribute in a fully synchronous environment, collaborating to build a web application using React.js for the frontend and Firebase for the backend. Engage in pair programming, submit pull requests (PRs), offer and receive code reviews, present weekly project demos, and participate in retrospectives to refine our team workflow and performance. Focus on web accessibility by implementing best practices like semantic HTML, alt attributes, ARIA, keyboard accessibility, and sufficient color contrast to ensure equal access for all users. Mentored by professionals in the field.',
+    details: 'Actively contribute to building a web application using React.js for the frontend and Firebase for the backend in a fully synchronous environment. Collaborate through pair programming, generate GitHub issues, submit pull requests (PRs), and engage in code reviews to ensure quality and collaboration. Present weekly project demos and participate in retrospectives to continually improve team workflow and performance. Focus on web accessibility by implementing best practices, including semantic HTML, alt attributes, ARIA, keyboard accessibility, and maintaining proper color contrast for an inclusive user experience. Operate within an Agile framework that promotes adaptability, using Scrum practices and focusing on User Stories and Self-Organizing Team Work to collaboratively determine project goals and deliver effective solutions. Receive ongoing mentorship from industry professionals to enhance technical skills and knowledge.',
   },
   {
     year: 2024,

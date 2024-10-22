@@ -9,12 +9,48 @@
 body {
   @apply h-screen transition duration-300 ease-in-out;
   background: #759aba7d; 
-  color: #f7f3f2; 
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
+  color: #1a202c; /* Changed to darker color for better contrast in light mode */
+  font-family:
+  -apple-system,
+  BlinkMacSystemFont,
+  avenir next,
+  avenir,
+  segoe ui,
+  helvetica neue,
+  helvetica,
+  Ubuntu,
+  roboto,
+  noto,
+  arial,
+  sans-serif;
+font-size: 1rem;
+/** Make sure the app fills the height of the screen. */
+height: 100dvh;
+line-height: 1.4;
+margin: 0;
+
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
+/* Define custom classes using @layer */
+@layer utilities {
+  .bg-dark {
+    background-color: #1a202c; /* Dark background color */
+  }
+  
+  .text-light {
+    color: #f7fafc; /* Light text color */
+  }
+
+  .bg-dark-bg {
+    background-color: #1a202c; /* Additional dark background for specific elements */
+  }
+  
+  .bg-dark-bg-alt {
+    background-color: #2d3748; /* Alternate dark background */
+  }
+}
 
 /* Dark Mode Styles */
 .dark body {
@@ -22,19 +58,23 @@ body {
 }
 
 .dark a {
-  @apply bg-dark-bg text-blue-400;
+  @apply text-blue-400;
 }
 
-.dark a:hover {
-  @apply outline-none ring-2 ring-offset-2 ring-blue-900;
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  @apply text-white; /* Ensure headers are visible */
 }
 
 .dark .menu-icon {
-  @apply bg-dark-bg-alt text-white;
+  @apply text-white bg-gray-700; /* High contrast for menu icon in dark mode */
 }
 
 .dark .menu-icon:hover {
   @apply ring-blue-900;
+}
+
+.dark .toggle-icon {
+  @apply text-yellow-400; /* Ensure contrast for sun icon in dark mode */
 }
 
 /* Light Mode Styles */
@@ -43,19 +83,32 @@ body {
 }
 
 .light a {
-  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white;
+  @apply text-blue-500;
 }
 
-.light a:hover {
-  @apply outline-none ring-2 ring-offset-2 ring-blue-300;
+.light h1, .light h2, .light h3, .light h4, .light h5, .light h6 {
+  @apply text-black; /* Ensure headers are visible in light mode */
 }
 
 .light .menu-icon {
-  @apply bg-blue-500 text-white;
+  @apply text-blue-500 bg-white; /* High contrast for menu icon in light mode */
 }
 
 .light .menu-icon:hover {
   @apply ring-blue-300;
+}
+
+.light .toggle-icon {
+  @apply text-blue-500; /* Ensure contrast for moon icon in light mode */
+}
+
+/* Remove outline around toggle when clicked */
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: none;
 }
 
 /* Shared Styles */
@@ -71,6 +124,10 @@ body {
 
 .menu-icon:hover {
   @apply transform scale-110 shadow-lg;
+}
+
+.toggle-icon {
+  @apply text-2xl;
 }
 
 .hover-effect {
