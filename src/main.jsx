@@ -1,13 +1,7 @@
-// npm modules
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// New import below:
 import { BrowserRouter as Router } from 'react-router-dom'
-
-// app
 import App from './App.jsx'
-
-// css
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -32,7 +32,9 @@ const DemosVideos = () => {
               className="rounded-md mb-4"
             ></iframe>
             <h3 className="text-2xl font-semibold">{demo.title}</h3>
-            <p className="text-gray-400 my-2">{demo.description}</p>
+            <p className="text-gray-700 dark:text-gray-400 my-2">
+              {demo.description}
+            </p>
           </div>
         ))}
       </div>
