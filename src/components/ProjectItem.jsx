@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
         <img
           src={img}
           alt={`Screenshot of ${title} project`}
-          className="object-cover w-full h-48 sm:h-64 md:h-72 transform scale-100 group-hover:scale-105 transition duration-300 rounded-xl"
+          className="w-full aspect-[16/9] object-cover transform scale-100 group-hover:scale-105 transition duration-300 rounded-xl"
         />
       </div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-gradient-to-t from-gray-800 to-gray-900 bg-opacity-90 text-center">
