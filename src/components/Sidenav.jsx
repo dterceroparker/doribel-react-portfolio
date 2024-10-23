@@ -77,7 +77,7 @@ const Sidenav = () => {
             {[
               { href: "#main", icon: <AiOutlineHome size={20} />, label: "Home" },
               { href: "#about", icon: <AiOutlineInfoCircle size={20} />, label: "About" },
-              { href: "#demovideos", icon: <MdVideoLibrary size={20} />, label: "Demo Videos" },
+              { href: "#demos-videos", icon: <MdVideoLibrary size={20} />, label: "Demos Videos" },
               { href: "#projects", icon: <AiOutlineProject size={20} />, label: "Projects" },
               { href: "#main", icon: <GrResume size={20} />, label: "Resume" },
               { href: "#contact", icon: <AiOutlineMail size={20} />, label: "Contact" },
@@ -104,7 +104,7 @@ const Sidenav = () => {
             {[
               { href: "#main", icon: <AiOutlineHome size={20} /> },
               { href: "#about", icon: <AiOutlineInfoCircle size={20} /> },
-              { href: "#demovideos", icon: <MdVideoLibrary size={20} /> },
+              { href: "#demos-videos", icon: <MdVideoLibrary size={20} /> },
               { href: "#projects", icon: <AiOutlineProject size={20} /> },
               { href: "#main", icon: <GrResume size={20} /> },
               { href: "#contact", icon: <AiOutlineMail size={20} /> },
