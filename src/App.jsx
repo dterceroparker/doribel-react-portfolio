@@ -1,10 +1,11 @@
-import Sidenav from './components/Sidenav.jsx'
-import Landing from './pages/Landing.jsx'
-import About from './pages/About.jsx'
-import Projects from './pages/Projects.jsx'
-import Contact from './pages/Contact.jsx'
-import Footer from './components/Footer.jsx'
-import { ThemeProvider } from './components/context/ThemeContext';
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
+import DemosVideos from './components/DemosVideos.jsx';
+import Footer from './components/Footer.jsx';
+import Landing from './pages/Landing.jsx';
+import Projects from './pages/Projects.jsx';
+import Sidenav from './components/Sidenav.jsx';
+import ThemeProvider from "./components/context/ThemeContext";
 
 const App = () => {
   return (
@@ -12,11 +13,12 @@ const App = () => {
       <Sidenav />
       <Landing />
       <About />
+      <DemosVideos />
       <Projects />
       <Contact />
       <Footer />
-      </ThemeProvider>
-  )
-}
+    </ThemeProvider>
+  );
+};
 
-export default App
+export default App;
