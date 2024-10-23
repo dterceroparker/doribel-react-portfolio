@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-bold text-center text-[#001b5e] dark:text-white mb-6">
+        <h1 className="text-4xl font-bold text-[#001b5e] dark:text-blue-200 mb-8 mt-0 text-center">
           {`Let's Connect!`}
         </h1>
         <form

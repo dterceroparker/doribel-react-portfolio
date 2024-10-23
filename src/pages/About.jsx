@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8">
+      <h1 className="text-4xl font-bold text-[#001b5e] dark:text-blue-200 mb-8 mt-0 text-center">
         <span className="sr-only">About</span> About Me
       </h1>
       <div className="space-y-8">

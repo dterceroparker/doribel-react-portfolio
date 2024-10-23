@@ -3,7 +3,7 @@ export const jobs = [
     image: '/profile.jpg',
     title: '',
     company: '',
-    details: 'Nicaragüense who immigrated to the U.S. at the age of twelve, with a lifelong passion for immigrant and animal rights and mental well-being. My interest lies at the intersection of technology accessibility and inclusive growth, exploring innovative solutions that empower users and bridge the digital divide. My background in academic support and non-profit work has strengthened my communication, collaboration, and leadership skills. I am proficient in Spanish (native), English (fluent), and French (limited working proficiency).',
+    details: 'Nicaragüense who immigrated to the U.S. at the age of twelve, with a lifelong passion for immigrant and animal rights and mental well-being. My diverse background in higher education, student wellness, AmeriCorps, and non-profit work sparked an interest in using technology to empower others. I believe in the transformative power of communication and collaboration - together, we can enhance the meaning of our work, even when challenges arise. I’m multilingual, speaking Spanish (native), English (fluent), and French (limited working proficiency). Now, I’m eager to combine my skills and experience to contribute to a role where I can collaborate and make a positive impact through web development and technical support. I am also passionate about supporting students and newcomers breaking into tech, helping them navigate their learning journey and achieve success in their careers.',
   },
   {
     year: 2024,

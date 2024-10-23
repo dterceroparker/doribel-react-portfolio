@@ -99,8 +99,6 @@ const Sidenav = () => {
             ))}
           </div>
         )}
-
-        {/* Sidebar for desktop */}
         <div className="hidden md:block fixed top-[25%] z-10">
           <div className="flex flex-col items-center">
             {[
