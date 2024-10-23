@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
-import { FaGithubSquare } from 'react-icons/fa';
-import { IoMdOpen } from 'react-icons/io';
+import PropTypes from "prop-types";
+import { FaGithubSquare } from "react-icons/fa";
+import { IoMdOpen } from "react-icons/io";
 
 const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
   return (
@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
         <img
           src={img}
           alt={`Screenshot of ${title} project`}
-          className="w-full aspect-[16/9] object-cover transform scale-100 group-hover:scale-105 transition duration-300 rounded-xl"
+          className="w-full h-auto object-contain transform scale-100 group-hover:scale-105 transition duration-300 rounded-xl"
         />
       </div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 bg-gradient-to-t from-gray-800 to-gray-900 bg-opacity-90 text-center">
@@ -39,7 +39,10 @@ const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
                 className="p-2 rounded-lg bg-gray-200 text-gray-700 font-bold cursor-pointer hover:bg-blue-200 hover:text-white transition duration-300 flex items-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-sm md:text-base"
                 aria-label={`View the GitHub repository for ${title}`}
               >
-                <FaGithubSquare className="w-5 h-5 sm:w-6 sm:h-6 mr-2" aria-hidden="true" />
+                <FaGithubSquare
+                  className="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                  aria-hidden="true"
+                />
                 <span className="sr-only">{`GitHub repository for ${title}`}</span>
                 GitHub
               </a>
@@ -52,7 +55,10 @@ const ProjectItem = ({ img, title, tech, githubLink, projectLink }) => {
                 className="p-2 rounded-lg bg-gray-200 text-gray-700 font-bold cursor-pointer hover:bg-blue-200 hover:text-white transition duration-300 flex items-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-sm md:text-base"
                 aria-label={`Visit the live project for ${title}`}
               >
-                <IoMdOpen className="w-5 h-5 sm:w-6 sm:h-6 mr-2" aria-hidden="true" />
+                <IoMdOpen
+                  className="w-5 h-5 sm:w-6 sm:h-6 mr-2"
+                  aria-hidden="true"
+                />
                 <span className="sr-only">{`Live project link for ${title}`}</span>
                 Visit Project
               </a>
