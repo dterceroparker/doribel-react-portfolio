@@ -22,7 +22,7 @@ const Contact = () => {
                 id: "name",
                 label: "Name",
                 type: "text",
-                placeholder: "John Doe",
+                placeholder: "Doribel Parker",
                 icon: <FaUser />,
               },
               {

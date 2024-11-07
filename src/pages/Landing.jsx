@@ -10,8 +10,8 @@ const Landing = () => {
         className="absolute inset-0 w-full h-full object-cover"
         src="/landing.jpg"
         alt="landing page background"
+        loading="lazy"
       />
-      {/* Darkened overlay for better contrast */}
       <div className="absolute inset-0 bg-black opacity-30"></div>
 
       <div className="relative z-10 text-center p-4 lg:p-8 max-w-full md:max-w-4xl w-full mx-auto md:pl-64">
