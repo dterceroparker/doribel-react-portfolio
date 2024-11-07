@@ -2,15 +2,12 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 export const ThemeContext = createContext(null);
+
 export const ThemeProvider = ({ children }) => {
-  const initialTheme = localStorage.getItem('theme') || 'light';
-  const [theme, setTheme] = useState(initialTheme);
+  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
+
   useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
+    document.documentElement.classList.toggle('dark', theme === 'dark');
     localStorage.setItem('theme', theme);
   }, [theme]);
 
@@ -21,19 +18,16 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
-
 ThemeProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
 export const useTheme = () => {
   const context = useContext(ThemeContext);
-
   if (!context) {
     throw new Error('useTheme must be used within a ThemeProvider');
   }
-
   return context;
 };
 
-export default ThemeProvider;
+export default ThemeProvider
