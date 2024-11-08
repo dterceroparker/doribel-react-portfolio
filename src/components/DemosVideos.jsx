@@ -1,15 +1,15 @@
 const demoData = [
   {
     title: 'Welcome to my portfolio',
-    videoUrl: 'https://www.youtube.com/embed/JoTcMPaIid0',
+    videoUrl: 'https://www.youtube.com/embed/JoTcMPaIid0?rel=0&vq=hd1080',
     description: "I'm excited to connect and explore opportunities to contribute and collaborate in meaningful ways!",
     watchUrl: 'https://www.youtube.com/shorts/JoTcMPaIid0',
   },
   {
     title: 'CollabShop Demo',
-    videoUrl: 'https://www.youtube.com/embed/Z5s6ttxRD2M',
+    videoUrl: 'https://www.youtube.com/embed/lOPVi2oc-QE?rel=0&vq=hd1080',
     description: 'This is a demo for CollabShop: a Collaborative React Smart Shopping List Application.',
-    watchUrl: 'https://www.youtube.com/watch?v=Z5s6ttxRD2M',
+    watchUrl: 'https://www.youtube.com/watch?v=lOPVi2oc-QE',
   },
 ];
 
