@@ -26,118 +26,131 @@ const Sidenav = () => {
   };
 
   return (
-    <>
-      <div className="overflow-hidden bg-bgPrimary dark:bg-bgPrimaryDark">
-        <div className="fixed top-4 right-4 z-[99] flex items-center md:hidden">
-          {!nav && (
-            <>
-              <button
-                aria-label="Open menu"
-                onClick={handleNav}
-                className="cursor-pointer menu-icon mr-4 flex items-center justify-center bg-gray-100 bg-opacity-80 rounded-full p-2 shadow-md dark:bg-gray-800 dark:bg-opacity-80 transition-colors duration-300 ease-in-out"
-              >
-                <AiOutlineMenu
-                  size={20}
-                  className="text-gray-900 dark:text-gray-200"
-                />
-              </button>
-              <button
-                onClick={toggleTheme}
-                className="flex items-center justify-center p-2 rounded-full shadow-md transition-all duration-300 ease-in-out"
-                aria-label={
-                  theme === "dark"
-                    ? "Switch to light mode"
-                    : "Switch to dark mode"
-                }
-              >
-                {theme === "dark" ? (
-                  <FaSun className="text-yellow-400 h-6 w-6 hover:text-yellow-300" />
-                ) : (
-                  <FaMoon className="text-blue-400 h-6 w-6 hover:text-blue-300" />
-                )}
-              </button>
-            </>
-          )}
-        </div>
-        {nav && (
-          <div
-            className={`fixed w-full h-screen flex flex-col justify-center items-center z-20 
-            ${theme === "dark" ? "bg-gray-900" : "bg-gray-100"} 
-            bg-opacity-95 transition-all duration-300 ease-in-out`}
-            aria-hidden={!nav}
-            role="dialog"
-          >
-            <button
-              onClick={handleNav}
-              className="absolute top-4 right-4 p-4 focus:outline-none"
-              aria-label="Close menu"
-            >
-              <IoMdClose size={30} className={`${theme === "dark" ? "text-yellow-400" : "text-blue-400"}`} />
-            </button>
-            {[
-              { href: "#main", icon: <AiOutlineHome size={20} />, label: "Home" },
-              { href: "#about", icon: <AiOutlineInfoCircle size={20} />, label: "About" },
-              { href: "#demos-videos", icon: <MdVideoLibrary size={20} />, label: "Demos Videos" },
-              { href: "#projects", icon: <AiOutlineProject size={20} />, label: "Projects" },
-              { href: "#main", icon: <GrResume size={20} />, label: "Resume" },
-              { href: "#contact", icon: <AiOutlineMail size={20} />, label: "Contact" },
-            ].map((item, index) => (
-              <a
-                key={index}
-                href={item.href}
-                onClick={handleNav}
-                className={`w-[75%] max-w-[300px] flex items-center rounded-full shadow-lg 
-                  ${theme === "dark" ? "bg-gray-900 text-yellow-400" : "bg-gray-100 text-blue-400"} 
-                  shadow-gray-400 m-2 p-4 hover:scale-110 
-                  ${theme === "dark" ? "hover:bg-gray-700" : "hover:bg-gray-200"} 
-                  transition-transform duration-300 ease-in-out`}
-                aria-label={`Navigate to ${item.label}`}
-              >
-                <span className="mr-2 flex-shrink-0">{item.icon}</span>
-                <span className="flex-grow text-left">{item.label}</span>
-              </a>
-            ))}
-          </div>
-        )}
-        <div className="hidden md:block fixed top-[25%] z-10">
-          <div className="flex flex-col items-center">
-            {[
-              { href: "#main", icon: <AiOutlineHome size={20} /> },
-              { href: "#about", icon: <AiOutlineInfoCircle size={20} /> },
-              { href: "#demos-videos", icon: <MdVideoLibrary size={20} /> },
-              { href: "#projects", icon: <AiOutlineProject size={20} /> },
-              { href: "#main", icon: <GrResume size={20} /> },
-              { href: "#contact", icon: <AiOutlineMail size={20} /> },
-            ].map((item, index) => (
-              <a
-                key={index}
-                href={item.href}
-                className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 text-gray-900 dark:text-gray-200 hover:scale-110 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                aria-label={`Navigate to ${item.href.substring(1)}`}
-              >
-                {item.icon}
-              </a>
-            ))}
-            <button
-              onClick={toggleTheme}
-              className="mt-8 bg-transparent rounded-full flex justify-center items-center p-4 shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-              aria-label={
-                theme === "dark"
-                  ? "Switch to light mode"
-                  : "Switch to dark mode"
-              }
-            >
-              {theme === "dark" ? (
-                <FaSun className="text-yellow-400 h-10 w-10 hover:text-yellow-300" />
-              ) : (
-                <FaMoon className="text-blue-400 h-10 w-10 hover:text-blue-300" />
-              )}
-              <span className="sr-only">Toggle Theme</span>
-            </button>
-          </div>
-        </div>
+    <div
+      className={`bg-${
+        theme === "dark" ? "gray-900" : "gray-100"
+      } min-h-screen`}
+    >
+      {/* Mobile Menu Button */}
+      <div className="fixed top-4 right-4 z-50 flex items-center md:hidden">
+        <button
+          aria-label="Toggle Menu"
+          onClick={handleNav}
+          className={`p-3 rounded-full shadow-md transition-colors ${
+            theme === "dark"
+              ? "bg-gray-800 text-yellow-400"
+              : "bg-white text-blue-500"
+          }`}
+        >
+          {nav ? <IoMdClose size={20} /> : <AiOutlineMenu size={20} />}
+        </button>
+        <button
+          aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          onClick={toggleTheme}
+          className={`p-3 rounded-full shadow-md ml-2 transition-colors ${
+            theme === "dark"
+              ? "bg-gray-800 text-yellow-400"
+              : "bg-white text-blue-500"
+          }`}
+        >
+          {theme === "dark" ? <FaSun size={20} /> : <FaMoon size={20} />}
+        </button>
       </div>
-    </>
+
+      {/* Mobile Navigation Menu */}
+      {nav && (
+        <nav
+          className={`fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center z-40 transition-all duration-300 ${
+            theme === "dark"
+              ? "bg-gray-900 text-yellow-400"
+              : "bg-gray-100 text-blue-500"
+          }`}
+        >
+          <ul className="space-y-6">
+            {[
+              {
+                href: "#main",
+                label: "Home",
+                icon: <AiOutlineHome size={24} />,
+              },
+              {
+                href: "#about",
+                label: "About",
+                icon: <AiOutlineInfoCircle size={24} />,
+              },
+              {
+                href: "#demos-videos",
+                label: "Demos",
+                icon: <MdVideoLibrary size={24} />,
+              },
+              {
+                href: "#projects",
+                label: "Projects",
+                icon: <AiOutlineProject size={24} />,
+              },
+              {
+                href: "#main",
+                label: "Resume",
+                icon: <GrResume size={24} />,
+              },
+              {
+                href: "#contact",
+                label: "Contact",
+                icon: <AiOutlineMail size={24} />,
+              },
+            ].map((item, index) => (
+              <li key={index}>
+                <a
+                  href={item.href}
+                  onClick={handleNav}
+                  className="flex items-center space-x-3 p-4 rounded-lg hover:scale-110 transition-transform"
+                >
+                  {item.icon}
+                  <span>{item.label}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      {/* Desktop Navigation */}
+      <div className="hidden md:flex fixed top-[30%] left-4 z-40 flex-col space-y-4">
+        {[
+          { href: "#main", icon: <AiOutlineHome size={24} /> },
+          { href: "#about", icon: <AiOutlineInfoCircle size={24} /> },
+          { href: "#demos-videos", icon: <MdVideoLibrary size={24} /> },
+          { href: "#projects", icon: <AiOutlineProject size={24} /> },
+          { href: "#main", icon: <GrResume size={24} /> },
+          { href: "#contact", icon: <AiOutlineMail size={24} /> },
+        ].map((item, index) => (
+          <a
+            key={index}
+            href={item.href}
+            className={`flex items-center justify-center p-3 rounded-full shadow-md transition-transform hover:scale-110 ${
+              theme === "dark"
+                ? "bg-gray-800 text-yellow-400 hover:bg-gray-700"
+                : "bg-white text-blue-500 hover:bg-gray-200"
+            }`}
+          >
+            {item.icon}
+          </a>
+        ))}
+
+        {/* Theme Toggle Button */}
+        <button
+          onClick={toggleTheme}
+          className={`mt-4 p-3 rounded-full shadow-md transition-transform hover:scale-110 ${
+            theme === "dark"
+              ? "bg-gray-800 text-yellow-400 hover:bg-gray-700"
+              : "bg-white text-blue-500 hover:bg-gray-200"
+          }`}
+          aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+        >
+          {theme === "dark" ? <FaSun size={24} /> : <FaMoon size={24} />}
+        </button>
+      </div>
+    </div>
   );
 };
 

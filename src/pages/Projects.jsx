@@ -60,15 +60,19 @@ const Projects = () => {
       </h1>
       <div id="projects-description" className="p-6 rounded-lg g mb-8 0">
         <p className="my-2 text-base font-normal text-stone-600 dark:text-gray-300">
-          My projects cater to diverse needs, from the mental health-focused
-          Returning Home app that supports bootcamp participants to the
-          convenient Pet HealthFetch app for pet owners. Additionally, PawMily
-          Album explores the intersection of social interaction and a calming
-          environment. These projects showcase my interest in the potential for
-          technology to enhance different aspects of life. CollabShop, a web
-          application built with React.js and Firebase, emphasizes collaboration
-          through features like shared shopping lists and a dedicated team page,
-          reflecting the power of teamwork in tech.
+          My projects are driven by a deep care for the human experience and
+          empathy, aiming to address diverse needs and improve everyday life.
+          Returning Home, a mental health-focused app, supports bootcamp
+          participants navigating their journeys with resources and
+          encouragement. Pet HealthFetch simplifies pet care for owners,
+          combining convenience with thoughtful design. PawMily Album blends
+          social interaction with a calming environment, exploring the ways
+          technology can foster connection and well-being. CollabShop, a
+          collaborative web application built with React.js and Firebase,
+          highlights the power of teamwork in tech with features like shared
+          shopping lists and a dedicated team page. These projects reflect my
+          passion for leveraging technology to enhance lives and create
+          meaningful connections.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">

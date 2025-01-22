@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const AboutItem = ({ year, title, company, details, image }) => {
   return (
@@ -10,7 +10,8 @@ const AboutItem = ({ year, title, company, details, image }) => {
             <img 
               src={image} 
               alt="Profile Image" 
-              className="w-24 h-24 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out" 
+              className="w-24 h-24 object-cover object-top rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out" 
+              style={{ objectPosition: 'top center' }} 
             />
           ) : (
             <span className="inline-block px-2 py-1 font-semibold text-white bg-[#004cffbf] rounded-md">{year}</span>
@@ -23,8 +24,8 @@ const AboutItem = ({ year, title, company, details, image }) => {
         <p className="my-2 text-base font-normal text-stone-600 dark:text-gray-300">{details}</p>
       </li>
     </ol>
-  )
-}
+  );
+};
 
 AboutItem.propTypes = {
   year: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
@@ -32,6 +33,6 @@ AboutItem.propTypes = {
   company: PropTypes.string,
   details: PropTypes.string.isRequired,
   image: PropTypes.string,
-}
+};
 
 export default AboutItem;

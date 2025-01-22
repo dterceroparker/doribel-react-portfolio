@@ -1,15 +1,15 @@
 export const jobs = [
   {
-    image: '/profile.jpg',
+    image: '/about.jpg',
     title: '',
     company: '',
-    details: 'Nicaragüense who immigrated to the U.S. at the age of twelve, with a lifelong passion for immigrant and animal rights and mental well-being. My diverse background in higher education, student wellness, AmeriCorps, and non-profit work sparked an interest in using technology to empower others. I believe in the transformative power of communication and collaboration - together, we can enhance the meaning of our work, even when challenges arise. I’m multilingual, speaking Spanish (native), English (fluent), and French (limited working proficiency). Now, I’m eager to combine my skills and experience to contribute to a role where I can collaborate and make a positive impact through web development and technical support. I am also passionate about supporting students and newcomers breaking into tech, helping them navigate their learning journey and achieve success in their careers.',
+    details: 'Nicaragüense who immigrated to the U.S. at the age of twelve, guided by Maya Angelou’s wisdom that people remember how you make them feel. With a lifelong passion for immigrant and animal rights and mental well-being, I believe in the transformative power of communication, collaboration, and emotional intelligence to enhance our work and overcome challenges. My diverse background spans higher education, student wellness, AmeriCorps, and nonprofit work, where I developed a passion for leveraging technology to empower others. As a multilingual professional fluent in Spanish (native), English (fluent), and French (limited proficiency), I connect with diverse communities and bridge communication gaps. With a strong foundation in program coordination and emerging expertise in product development, I’m eager to contribute to roles that value initiative, collaboration, and creating positive change.'
   },
   {
     year: 2024,
-    title: 'Software Developer',
+    title: 'Product and Software Developer',
     company: 'The Collab Lab (Remote)',
-    details: 'Actively contribute to building a web application using React.js for the frontend and Firebase for the backend in a fully synchronous environment. Collaborate through pair programming, generate GitHub issues, submit pull requests (PRs), and engage in code reviews to ensure quality and collaboration. Present weekly project demos and participate in retrospectives to continually improve team workflow and performance. Focus on web accessibility by implementing best practices, including semantic HTML, alt attributes, ARIA, keyboard accessibility, and maintaining proper color contrast for an inclusive user experience. Operate within an Agile framework that promotes adaptability, using Scrum practices and focusing on User Stories and Self-Organizing Team Work to collaboratively determine project goals and deliver effective solutions. Receive ongoing mentorship from industry professionals to enhance technical skills and knowledge.',
+    details: 'Designed and developed a smart shopping list application using React.js and Firebase, focusing on user-centered design and accessibility, including light/dark mode options and semantic HTML. Collaborated in an Agile environment, contributing through pair programming, code reviews, and GitHub issue management to refine features and align with project goals. Presented weekly project demos and incorporated stakeholder feedback to drive continuous improvement. Proposed and implemented process adjustments during retrospectives, enhancing team workflows and outcomes. Received mentorship from industry professionals, further developing technical skills and best practices in web development.'
   },
   {
     year: 2024,
