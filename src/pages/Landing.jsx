@@ -15,7 +15,7 @@ const Landing = () => {
         alt="landing page background"
         loading="lazy"
       />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-40"></div>
       <div className="relative z-10 text-center p-4 lg:p-8 max-w-full md:max-w-4xl w-full mx-auto md:pl-64">
         <div className="bg-black bg-opacity-70 rounded-lg p-6 shadow-xl">
           <h1 className="text-4xl sm:text-4xl font-bold text-white mb-4">

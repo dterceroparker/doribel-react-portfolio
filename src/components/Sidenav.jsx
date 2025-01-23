@@ -29,7 +29,7 @@ const Sidenav = () => {
     <div
       className={`bg-${
         theme === "dark" ? "gray-900" : "gray-100"
-      } min-h-screen`}
+      } min-h-screen overflow-hidden`}
     >
       {/* Mobile Menu Button */}
       <div className="fixed top-4 right-4 z-50 flex items-center md:hidden">
