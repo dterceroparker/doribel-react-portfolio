@@ -13,13 +13,13 @@ export const jobs = [
   },
   {
     year: 2024,
-    title: 'Software Engineering Bootcamp Student',
+    title: 'Software Engineering Bootcamp',
     company: 'General Assembly (Remote)',
     details: 'Gained a foundation in programming and web development, specializing in the MERN stack (MongoDB, Express, React, Node.js). Implemented secure user authentication using JSON Web Tokens (JWTs). Built RESTful APIs with full CRUD functionality, leveraging Express and Mongoose for data management. Advanced React proficiency by creating dynamic single-page applications (SPAs), including integrating APIs and handling image uploads. Tested and debugged APIs using Postman to ensure reliability and performance. Enhanced teamwork and collaboration skills by working on group projects and utilizing Git/GitHub for efficient version control and code management.',
   },
   {
     year: 2023, 
-    title: 'Data Analytics Foundations Student',
+    title: 'Data Analytics Foundations Course',
     company: 'City University of New York',
     details: 'Developed essential skills for data analytics, including data gathering, preparation, analysis, and visualization from both structured and unstructured sources. Gained proficiency in Python, SQL, and Tableau. Explored various industries and professions that leverage data analytics to drive insights and decision-making.',
   },
