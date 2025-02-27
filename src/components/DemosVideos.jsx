@@ -1,9 +1,9 @@
 const demoData = [
   {
-    title: 'Welcome to my portfolio',
-    videoUrl: 'https://www.youtube.com/embed/JoTcMPaIid0?rel=0&vq=hd1080',
+    title: 'My Professional Journey',
+    videoUrl: 'https://www.youtube.com/embed/xp80Ltwh1rI?rel=0&vq=hd1080',
     description: "I'm excited to connect and explore opportunities to contribute and collaborate in meaningful ways!",
-    watchUrl: 'https://www.youtube.com/shorts/JoTcMPaIid0',
+    watchUrl: 'https://www.youtube.com/shorts/xp80Ltwh1rI',
   },
   {
     title: 'CollabShop Demo',
